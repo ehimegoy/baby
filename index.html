@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    body {
+      touch-action: pan-y;
+    }
+  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content= "width=device-width, user-scalable=no">
+  <title>3F</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>BABY</h1>
+    <p></p>
+    <div id="flashcard" class="flashcard">
+      <p id="word">「次」押して</p>
+    </div>
+    <button id="show-meaning" onclick="showMeaning()" disabled>フリガナ</button>
+    <button id="show-vocab" onclick="showVocab()" style="display: none;">漢字</button>
+    <button id="next-vocabulary" onclick="nextVocabulary()">次</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
